@@ -18,7 +18,7 @@ where `n1, n2, ..., n16` are any of the 11 possible outcomes of the toss of two 
 ```
 ./mdginabc2svg.sh 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3
 ```
-The output will be the file `K516-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3.xhtml`, containing the score of the MDG corresponding to the 16 outcomes given at the command line, and will be created under the current working director.  Please see the `samples` folder in this directory for more sample XHTML files.
+The output will be the file `K516-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3.xhtml`, containing the score of the MDG corresponding to the 16 outcomes given at the command line, and will be created under the current working directory.  Please see the `samples` folder in this directory for more sample XHTML files.
 
 ## Acknowledgements
 My sicerest gratitude to Jeff Moine for [abc2svg](http://moinejf.free.fr/js/index.html) and the accompanying useful javascripts, examples, templates, and pointers for the ppropriate use of these recources. Guido Gonzato for the [ABC Plus Project](http://abcplus.sourceforge.net/) and the [abcmidi resources](http://abcplus.sourceforge.net/#abcMIDI) available there, more especially for the ABC resource book *Making Music with ABC 2*.  Special thanks also to the [International Music Score Library Project (IMSLP)](http://imslp.org/) for making available the score for *Musikalisches Würfelspiel, K.516f*.
