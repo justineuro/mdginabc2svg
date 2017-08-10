@@ -1,9 +1,9 @@
 #!/bin/bash
 #===================================================================================
 #
-#	 FILE:	mdginabc2svg.sh
+#	 FILE:	mdginabc2svg-sm.sh
 #
-#	USAGE:	mdginabc2svg.sh n1 n2 n3 n4 n5 n6 n7 n8 n9 n10 n11 n12 n13 n14 n15 n16
+#	USAGE:	mdginabc2svg-sm.sh n1 n2 n3 n4 n5 n6 n7 n8 n9 n10 n11 n12 n13 n14 n15 n16
 #
 #		where n1-n16 are any of the 11 possible outcomes of a toss of
 #		two ordinary six-sided dice, e.g., n1-n16 are 16 integers, not necessarily 
@@ -12,13 +12,13 @@
 # DESCRIPTION:	Used for generating an XHTML file containing a Musical Dice Game (MDG)
 #		minuet based on the rules given in K. 516f or K. 294d or K. Anh. C 30.01
 #		(1792 publication attributed to W.A. Mozart by his publisher, Nikolaus 
-#		Simrock). 
+#		Simrock). (smaller image)
 #
 #      AUTHOR:	J.L.A. Uro (justineuro@gmail.com)
-#     VERSION:	1.5
+#     VERSION:	1.0
 #     LICENSE:	Creative Commons Attribution 4.0 International License (CC-BY)
-#     CREATED:	10.08.2017 - 16:21:10 +08 2017
-#    REVISION:	10.08.2017 - 19:45:00 +08 2017
+#     CREATED:	10.08.2017 - 19:45:00 +08 2017
+#    REVISION:	
 #==================================================================================
 
 #----------------------------------------------------------------------------------
@@ -85,7 +85,7 @@ EOT
 # set header info: generic index number, filename
 #----------------------------------------------------------------------------------
 fileInd=$1-$2-$3-$4-$5-$6-$7-$8-$9-${10}-${11}-${12}-${13}-${14}-${15}-${16}
-filen="K516f-$fileInd.xhtml"
+filen="K516f-$fileInd-sm.xhtml"
 dbNum=$(( ${diceS[0]1}-1 +(${diceS[1]}-2)*11 +(${diceS[2]}-2)*11**2 +(${diceS[3]}-2)*11**3 +(${diceS[4]}-2)*11**4 +(${diceS[5]}-2)*11**5 +(${diceS[6]}-2)*11**6 +(${diceS[8]}-2)*11**7 +(${diceS[9]}-2)*11**8 +(${diceS[10]}-2)*11**9 +(${diceS[11]}-2)*11**10 +(${diceS[12]}-2)*11**11 +(${diceS[13]}-2)*11**12 +(${diceS[14]}-2)*11**13 ))
 
 #----------------------------------------------------------------------------------
@@ -131,8 +131,8 @@ catToFile "<body bgcolor='#ffffff'>
 <center>
 %abc-2.2
 %<![CDATA[
-%%scale 0.88
-%%pagewidth 24cm
+%%scale 0.75
+%%pagewidth 20cm
 %%bgcolor white
 %%topspace 0
 %%composerspace 0

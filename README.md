@@ -4,7 +4,8 @@
 
 This directory includes:
 
-* `mdginabc2svg.sh` - the Bash script for generating the MDGs 
+* `mdginabc2svg.sh` - the Bash script for generating the MDGs
+* `mdginac2svg-sm.sh` - similar to `mdginabc2svg.sh` but smaller SVG images are produced
 * `samples` - a folder containing samples of generated MDG as an XHTML file and the needed javascripts located inside the `js` sub-folder
 
 To use the Bash script, at the command line type:
@@ -23,6 +24,7 @@ The output will be the file `K516f-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3.xhtml`, conta
 ## Acknowledgements
 My sincerest gratitude to Jeff Moine for [abc2svg](http://moinejf.free.fr/js/index.html) and the accompanying useful javascripts, examples, templates, and pointers for the appropriate use of these resources. Guido Gonzato for the [ABC Plus Project](http://abcplus.sourceforge.net/) and the [abcmidi resources](http://abcplus.sourceforge.net/#abcMIDI) available there, more especially for the ABC resource book *Making Music with ABC 2*.  Special thanks also to the [International Music Score Library Project (IMSLP)](http://imslp.org/) for making available the score for *Musikalisches Würfelspiel, K.516f*.
 
+## License
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><b>mdginabc2svg</b></span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/justineuro/mdginabc2svg" property="cc:attributionName" rel="cc:attributionURL">Justine Leon A. Uro</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/justineuro/mdginabc2svg" rel="dct:source">https://github.com/justineuro/mdginabc2svg</a>.
 
 
