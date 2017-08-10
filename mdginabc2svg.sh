@@ -3,19 +3,20 @@
 #
 #				 FILE:	mdginabc2svg.sh
 #
-#	   		USAGE:	mdginabc2svg.sh n1 n2 n3 n4 n5 n6 n7 n8 n9 n10 n11 n12 n13 n14 n15 n16
+#				USAGE:	mdginabc2svg.sh n1 n2 n3 n4 n5 n6 n7 n8 n9 n10 n11 n12 n13 n14 n15 n16
 #
 #								where n1-n16 are any of the 11 possible outcomes of a toss of
 #								two ordinary six-sided dice, e.g., n1-n16 are 16 integers, not necessarily 
 #								unique, chosen from the set {2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12}
 #
 #	DESCRIPTION:	Used for generating a Musical Dice Game (MDG) minuet based on  
-#								K. 516f or K. 294d or K. Anh. C 30.01 (1792 publication attributed to #								W.A. Mozart by his publisher, Nikolaus Simrock).
+#								K. 516f or K. 294d or K. Anh. C 30.01 (1792 publication attributed to 
+#								W.A. Mozart by his publisher, Nikolaus Simrock).
 #
 #			 AUTHOR:	J.L.A. Uro (justineuro@gmail.com)
-#  		VERSION:	1.0
-#	 		CREATED:	0.08.2017 - 16:21:10 +08 2017
-#		 REVISION: 
+#			VERSION:	1.2
+#			CREATED:	10.08.2017 - 16:21:10 +08 2017
+#		 REVISION:	10.08.2017 - 15:00:00 +08 2017
 #==================================================================================
 
 #----------------------------------------------------------------------------------
@@ -92,7 +93,7 @@ currMeas=0
 for measj in ${diceS[*]} ; do
 	currMeas=`expr $currMeas + 1`
 	ruletab $measj
-  measPerm="$measPerm${measNR[$currMeas-1]}:"
+	measPerm="$measPerm${measNR[$currMeas-1]}:"
 done
 measPerm="$measPerm:"
 
