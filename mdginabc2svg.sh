@@ -14,9 +14,10 @@
 #								W.A. Mozart by his publisher, Nikolaus Simrock).
 #
 #			 AUTHOR:	J.L.A. Uro (justineuro@gmail.com)
-#			VERSION:	1.2
+#			VERSION:	1.3
+#			LICENSE:	Creative Commons Attribution 4.0 International License (CC-BY)
 #			CREATED:	10.08.2017 - 16:21:10 +08 2017
-#		 REVISION:	10.08.2017 - 15:00:00 +08 2017
+#		 REVISION:	10.08.2017 - 15:14:50 +08 2017
 #==================================================================================
 
 #----------------------------------------------------------------------------------
