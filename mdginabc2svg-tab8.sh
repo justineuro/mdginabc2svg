@@ -1,23 +1,22 @@
 #!/bin/bash
 #===================================================================================
 #
-#				 FILE:	mdginabc2svg.sh
+#	 FILE:	mdginabc2svg.sh
 #
-#				USAGE:	mdginabc2svg.sh n1 n2 n3 n4 n5 n6 n7 n8 n9 n10 n11 n12 n13 n14 n15 n16
+#	USAGE:	mdginabc2svg.sh n1 n2 n3 n4 n5 n6 n7 n8 n9 n10 n11 n12 n13 n14 n15 n16
 #
-#								where n1-n16 are any of the 11 possible outcomes of a toss of
-#								two ordinary six-sided dice, e.g., n1-n16 are 16 integers, not necessarily 
-#								unique, chosen from the set {2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12}
+#		where n1-n16 are any of the 11 possible outcomes of a toss of
+#		two ordinary six-sided dice, e.g., n1-n16 are 16 integers, not necessarily 
+#		unique, chosen from the set {2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12}
 #
-#	DESCRIPTION:	Used for generating a Musical Dice Game (MDG) minuet based on  
-#								K. 516f or K. 294d or K. Anh. C 30.01 (1792 publication attributed to 
-#								W.A. Mozart by his publisher, Nikolaus Simrock).
+# DESCRIPTION:	Used for generating a Musical Dice Game (MDG) minuet based on  
+#		K. 516f or K. 294d or K. Anh. C 30.01 (1792 publication attributed to 
+#		W.A. Mozart by his publisher, Nikolaus Simrock).
 #
-#			 AUTHOR:	J.L.A. Uro (justineuro@gmail.com)
-#			VERSION:	1.3
-#			LICENSE:	Creative Commons Attribution 4.0 International License (CC-BY)
-#			CREATED:	10.08.2017 - 16:21:10 +08 2017
-#		 REVISION:	10.08.2017 - 15:14:50 +08 2017
+#      AUTHOR:	J.L.A. Uro (justineuro@gmail.com)
+#     VERSION:	1.1
+#     CREATED:	10.08.2017 - 16:21:10 +08 2017
+#    REVISION: 	10.08.2017 - 16:52:10 +08 2017
 #==================================================================================
 
 #----------------------------------------------------------------------------------
