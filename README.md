@@ -12,7 +12,7 @@ This directory includes:
 - [`mdginac2svg-sm.sh`](./mdginabc2svg-sm.sh) - similar to `mdginabc2svg.sh` but smaller SVG images are created
 - [`mdginac2svg-tab2.sh`](./mdginabc2svg-tab2.sh) - similar to `mdginabc2svg.sh` but coded with tabs of width 2 instead of 8 spaces
 - [`samples`](./samples) - a folder containing samples of generated MDG minuets as XHTML files and a sub-folder containing the needed javascripts for rendering the minuet written in ABC notation as SVG images
-- [`res`](./res) - a folder containing the measures of *Musikalisches Würfelspiel, K.516f* written in ABC notation and other related files 
+- [`res`](https://justineuro.github.io/mdginabc2svg/res/) - a folder containing the measures of *Musikalisches Würfelspiel, K.516f* written in ABC notation and other related files 
 
 To use the Bash script, at the command line type:
 
