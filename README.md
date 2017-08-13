@@ -8,10 +8,11 @@
 
 This directory includes:
 
-- `mdginabc2svg.sh` - a Bash script for generating the MDG minuets corresponding to any sequence of 16 tosses of a pair of dice
-- `mdginac2svg-sm.sh` - similar to `mdginabc2svg.sh` but smaller SVG images are created
-- `mdginac2svg-tab2.sh` - similar to `mdginabc2svg.sh` but coded with tabs of length 2 instead of 8 spaces
-- `samples` - a folder containing samples of generated MDG minuets as XHTML files and a sub-folder containing the needed javascripts for rendering the minuet written in ABC notation as SVG images.
+- [`mdginabc2svg.sh`](./mdginabc2svg.sh) - a Bash script for generating the MDG minuets corresponding to any sequence of 16 tosses of a pair of dice
+- [`mdginac2svg-sm.sh`](./mdginabc2svg-sm.sh) - similar to `mdginabc2svg.sh` but smaller SVG images are created
+- [`mdginac2svg-tab2.sh`](./mdginabc2svg-tab2.sh) - similar to `mdginabc2svg.sh` but coded with tabs of width 2 instead of 8 spaces
+- [`samples`](./samples) - a folder containing samples of generated MDG minuets as XHTML files and a sub-folder containing the needed javascripts for rendering the minuet written in ABC notation as SVG images
+- [`res`](./res) - a folder containing the measures of Musikalisches Würfelspiel, K.516f written in ABC notation and other related files 
 
 To use the Bash script, at the command line type:
 
@@ -27,7 +28,7 @@ where `n1, n2, ..., n16` are any of the 11 possible outcomes of the toss of two 
 The output will be the file `K516f-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3-3.xhtml`, containing the score of the MDG minuet corresponding to the 16 outcomes given at the command line (all tosses came up a 3), and will be created under the current working directory.  Please see the [`samples`](./samples/index.md) folder in this directory for more sample XHTML files.
 
 ## Acknowledgements
-My sincerest gratitude to Jeff Moine for [abc2svg](http://moinejf.free.fr/js/index.html) and the accompanying useful javascripts, examples, templates, and pointers for the appropriate use of these resources. Guido Gonzato for the [ABC Plus Project](http://abcplus.sourceforge.net/) and the [abcmidi resources](http://abcplus.sourceforge.net/#abcMIDI) available there, more especially for the ABC resource book *Making Music with ABC 2*.  Special thanks also to the [International Music Score Library Project (IMSLP)](http://imslp.org/) for making available the score for *Musikalisches Würfelspiel, K.516f*.
+My sincerest gratitude to Jeff Moine for [abcm2ps](http://moinejf.free.fr/), [abc2svg](http://moinejf.free.fr/js/index.html), and the accompanying useful javascripts, examples, templates, and pointers for the appropriate use of these resources. Guido Gonzato for the [ABC Plus Project](http://abcplus.sourceforge.net/) and the [abcmidi resources](http://abcplus.sourceforge.net/#abcMIDI) available there, more especially for the ABC resource book *Making Music with ABC 2*.  Special thanks also to the [International Music Score Library Project (IMSLP)](http://imslp.org/) for making available the score for *Musikalisches Würfelspiel, K.516f*, Chris Walshaw et al. for the [ABC music notation](http://www.abcnotation.com).
 
 ## License
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><b>mdginabc2svg</b></span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/justineuro/mdginabc2svg" property="cc:attributionName" rel="cc:attributionURL">Justine Leon A. Uro</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/justineuro/mdginabc2svg" rel="dct:source">https://github.com/justineuro/mdginabc2svg</a>.
