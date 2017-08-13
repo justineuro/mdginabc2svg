@@ -17,7 +17,7 @@
 #      AUTHOR:	J.L.A. Uro (justineuro@gmail.com)
 #     VERSION:	1.0
 #     LICENSE:	Creative Commons Attribution 4.0 International License (CC-BY)
-#     CREATED:	10.08.2017 - 19:45:00 +08 2017
+#     CREATED:	2017.08.12 14:05:50 +8
 #    REVISION:	
 #==================================================================================
 
@@ -132,7 +132,7 @@ catToFile "<body bgcolor='#ffffff'>
 %abc-2.2
 %<![CDATA[
 %%scale 0.75
-%%pagewidth 20cm
+%%pagewidth 21cm
 %%bgcolor white
 %%topspace 0
 %%composerspace 0
