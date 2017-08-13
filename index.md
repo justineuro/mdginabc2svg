@@ -1,4 +1,4 @@
-## An MDG minuet created by <span style="background: white; width: auto; display:inline-block; padding-left:1%; padding-right:1%"> mdginabc2svg.sh </span>
+## An MDG minuet created by <span style="background: white; width: auto; display:inline-block; padding-left:1%; padding-right:1%"> mdginabc2svg-sm.sh </span>
 Clicking (tapping, for mobile users) on the image below will consequently play the music. 
 
 <script src='./samples/js/abc2svg-1.js' type='text/javascript'></script>
