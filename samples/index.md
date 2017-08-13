@@ -42,4 +42,4 @@ The following descriptions are from [abc2svg site](https://github.com/moinejf/ab
   for an example.
 
 ## ABC-related materials for MDG
-For the *Musikalisches Würfelspiel, K.516f* score in ABC notation please see the [`res`](https://justineuro.github.io/mdginabc2svg/res/) folder of the [mdginabc2svg](https://github.com/justineuro/mdginabc2svg) directory on GitHub.
+For the *Musikalisches Würfelspiel, K.516f* score in ABC notation please see the [`res`](https://justineuro.github.io/mdginabc2svg/res/) folder of the [mdginabc2svg](https://github.com/justineuro/mdginabc2svg) directory on GitHub or the GitHub Pages Site of [mdginabc2svg](https://justineuro.github.io/mdginabc2svg): [https://justineuro.github.io/mdginabc2svg/res/](https://justineuro.github.io/mdginabc2svg/res/).
