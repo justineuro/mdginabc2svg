@@ -15,10 +15,10 @@
 #		Simrock). (smaller image)
 #
 #      AUTHOR:	J.L.A. Uro (justineuro@gmail.com)
-#     VERSION:	1.0
+#     VERSION:	1.0.1
 #     LICENSE:	Creative Commons Attribution 4.0 International License (CC-BY)
-#     CREATED:	2017.08.12 14:05:50 +8
-#    REVISION:	
+#     CREATED:	10.08.2017 - 19:45:00 +08 2017
+#    REVISION:	2017.08.15 15:49:03 +8
 #==================================================================================
 
 #----------------------------------------------------------------------------------
@@ -86,7 +86,7 @@ EOT
 #----------------------------------------------------------------------------------
 fileInd=$1-$2-$3-$4-$5-$6-$7-$8-$9-${10}-${11}-${12}-${13}-${14}-${15}-${16}
 filen="K516f-$fileInd-sm.xhtml"
-dbNum=$(( ${diceS[0]1}-1 +(${diceS[1]}-2)*11 +(${diceS[2]}-2)*11**2 +(${diceS[3]}-2)*11**3 +(${diceS[4]}-2)*11**4 +(${diceS[5]}-2)*11**5 +(${diceS[6]}-2)*11**6 +(${diceS[8]}-2)*11**7 +(${diceS[9]}-2)*11**8 +(${diceS[10]}-2)*11**9 +(${diceS[11]}-2)*11**10 +(${diceS[12]}-2)*11**11 +(${diceS[13]}-2)*11**12 +(${diceS[14]}-2)*11**13 ))
+dbNum=$(( ${diceS[0]}-1 +(${diceS[1]}-2)*11 +(${diceS[2]}-2)*11**2 +(${diceS[3]}-2)*11**3 +(${diceS[4]}-2)*11**4 +(${diceS[5]}-2)*11**5 +(${diceS[6]}-2)*11**6 +(${diceS[8]}-2)*11**7 +(${diceS[9]}-2)*11**8 +(${diceS[10]}-2)*11**9 +(${diceS[11]}-2)*11**10 +(${diceS[12]}-2)*11**11 +(${diceS[13]}-2)*11**12 +(${diceS[14]}-2)*11**13 ))
 
 #----------------------------------------------------------------------------------
 # calculate permutation number for the current dice toss (from 11^14 possibilities)
@@ -132,7 +132,7 @@ catToFile "<body bgcolor='#ffffff'>
 %abc-2.2
 %<![CDATA[
 %%scale 0.75
-%%pagewidth 21cm
+%%pagewidth 20cm
 %%bgcolor white
 %%topspace 0
 %%composerspace 0
