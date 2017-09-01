@@ -102,7 +102,7 @@ Examples of XHTML files (score-producing audio) containing MDG minuets generated
 
 ## Essential javascripts  
 
-`abc2svg-1.js`, `abcemb-1.js`, and `play-1.js` in the sub-folder `js` were authored by Jeff Moine and were obtained from the [the author's web site](http://moinejf.free.fr/js/).
+`abc2svg-1.js`, `abcemb-1.js`, and `play-1.js` in the sub-folder `js` (version 1.14.0; 2017-08-23) were authored by Jeff Moine and were obtained from the [the author's web site](http://moinejf.free.fr/js/).
 These javascripts are used to render ABC in the XHTML files.  See http://moinejf.free.fr/abcm2ps-doc/au_clair.xhtml for an example and template.
 
 The following descriptions are from the GitHub [abc2svg site](https://github.com/moinejf/abc2svg).
