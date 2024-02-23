@@ -1,15 +1,14 @@
 ## An MDG minuet created by <span style="background: white; width: auto; display:inline-block; padding-left:1%; padding-right:1%"> mdginabc2svg-sm.sh </span>
 Clicking (tapping, for mobile users) on the image below will consequently play the music. 
 
-<script src='./samples/js/abc2svg-1.js' type='text/javascript'></script>
-<script src='./samples/js/abcemb-1.js' type='text/javascript'></script>
-<script src='./samples/js/play-1.js' type='text/javascript'></script>
+<script src='./samples/js/abcweb-1.js' type='text/javascript'></script>
+<script src='./samples/js/snd-1.js' type='text/javascript'></script>
 <style type='text/css'>
 	svg {display:block}
 </style>
 
 <center>
-%abc-2.2
+%abc-4.49
 %<![CDATA[
 %%scale 0.75
 %%pagewidth 21cm
@@ -102,34 +101,22 @@ Examples of XHTML files (score-producing audio) containing MDG minuets generated
 
 ## Essential javascripts  
 
-`abc2svg-1.js`, `abcemb-1.js`, and `play-1.js` in the sub-folder `js` (version 1.14.0; 2017-08-23) were authored by Jeff Moine and were obtained from the [the author's web site](http://moinejf.free.fr/js/).
-These javascripts are used to render ABC in the XHTML files.  See http://moinejf.free.fr/abcm2ps-doc/au_clair.xhtml for an example and template.
+`abcweb-1.js` and `snd-1.js` in the sub-folder `js` (version 1.22.13; 2023-02-23) were authored by Jeff Moin ([the author's web site](http://moinejf.free.fr/js/)).
+These javascripts are used to render ABC in the XHTML files.  See `http://moinejf.free.fr/abcm2ps-doc/tabac.html` for an example and template.
 
-The following descriptions are from the GitHub [abc2svg site](https://github.com/moinejf/abc2svg).
-- `abc2svg-1.js`
-  This script is the **abc2svg** core.  
-  It contains the ABC parser and the SVG generation engine.  
-  It must be included in the (X)HTML header of the pages
-  where ABC rendering is needed (in `<script src=` tags).
-- `abcemb-1.js`
-  This script is to be used in (X)HTML pages with the core.  
-  It replaces the ABC sequences by SVG images of the music
-  (the ABC sequences start on `X:` or `%abc` at start of line,
-  and stop on any ML tag).  
-  See the
-  [%%beginml documentation](http://moinejf.free.fr/abcm2ps-doc/beginml.xhtml)
-  for an example.
+The following descriptions are from the Chiselapp [abc2svg site](https://chiselapp.com/user/moinejf/repository/abc2svg/doc/trunk/README.md).
+- `abcweb-1.js`
+  This script replaces the ABC sequences found in the (X)HTML file by SVG images of the music.
 - `play-1.js`
-  This script may be used with `abcemb-1.js` for playing the
-  rendered ABC music.  
-  See [this page](http://moinejf.free.fr/abcm2ps-doc/au_clair.xhtml)
+  This script may be used with abcweb-1.js to play the rendered ABC music. 
+  See [this page](http://moinejf.free.fr/abcm2ps-doc/tabac.html)
   for an example.
 
 ## ABC-related materials for MDG
 For the *Musikalisches Würfelspiel, K.516f* score in ABC notation please see the [`res`](https://justineuro.github.io/mdginabc2svg/res/) folder of the [mdginabc2svg](https://github.com/justineuro/mdginabc2svg) directory on GitHub or the GitHub Pages Site of [mdginabc2svg](https://justineuro.github.io/mdginabc2svg): [https://justineuro.github.io/mdginabc2svg/res/](https://justineuro.github.io/mdginabc2svg/res/).
 
 ## Acknowledgements
-My sincerest gratitude to Chris Walshaw et al. for the [ABC music notation](http://www.abcnotation.com);  Jean-Francois Moine for [abcm2ps](http://moinejf.free.fr/) and [abcmplugin](http://moinejf.free.fr/), and the accompanying examples, templates, and pointers for the appropriate use of these resources;  Guido Gonzato for the [ABC Plus Project](http://abcplus.sourceforge.net/) and the [abcmidi resources](http://abcplus.sourceforge.net/#abcMIDI) available there, more especially for the ABC resource book *Making Music with ABC 2*; James R. Allwright and Seymour Shlien for [abcmidi](http://abc.sourceforge.net/abcMIDI) source and binaries; and [Artifex, Inc.](https://artifex.com) for Ghostscript (includes the `ps2pdf` converter).  Special thanks also to the [International Music Score Library Project (IMSLP)](http://imslp.org/) for making available the score for *Musikalisches Würfelspiel, K.516f* and to Chris Walshaw et al. for the [ABC music notation](http://www.abcnotation.com).  Ditto to Machtelt Garrels for the book [Bash Guide for Beginners](http://tldp.org/LDP/Bash-Beginners-Guide/html/Bash-Beginners-Guide.html) and Vivek Gite for the book [Linux Script Shell Tutorial](http://www.freeos.com/guides/lsst/).  Much thanks, too, to the [Debian Project](https://www.debian.org) for the Debian 8 (Jessie) GNU/Linux OS, to Brian Fox for [Bash](https://www.gnu.org/software/bash/), and [GitHub](https://github.com) for its generosity in providing space for [this project](https://github.com/justineuro/mdginabc2svg).   
+My sincerest gratitude to Chris Walshaw et al. for the [ABC music notation](http://www.abcnotation.com); Jean-Francois Moine for for [abcm2ps](http://moinejf.free.fr/), [abc2svg](http://moinejf.free.fr/js/index.html), and the accompanying useful javascripts, examples, templates, and pointers for the appropriate use of these resources;  Guido Gonzato for the [ABC Plus Project](http://abcplus.sourceforge.net/) and the [abcmidi resources](http://abcplus.sourceforge.net/#abcMIDI) available there, more especially for the ABC resource book *Making Music with ABC 2*; James R. Allwright and Seymour Shlien for [abcmidi](http://abc.sourceforge.net/abcMIDI) source and binaries; and [Artifex, Inc.](https://artifex.com) for Ghostscript (includes the `ps2pdf` converter).  Special thanks also to the [International Music Score Library Project (IMSLP)](http://imslp.org/) for making available the score for *Musikalisches Würfelspiel, K.516f* and to Chris Walshaw et al. for the [ABC music notation](http://www.abcnotation.com).  Ditto to Machtelt Garrels for the book [Bash Guide for Beginners](http://tldp.org/LDP/Bash-Beginners-Guide/html/Bash-Beginners-Guide.html) and Vivek Gite for the book [Linux Script Shell Tutorial](http://www.freeos.com/guides/lsst/).  Much thanks, too, to the [Debian Project](https://www.debian.org) for the Debian 10 (Buster) GNU/Linux OS, to Brian Fox for [Bash](https://www.gnu.org/software/bash/), and [GitHub](https://github.com) for its generosity in providing space for [this project](https://github.com/justineuro/mdginabc2svg).   
 
 
 ## License

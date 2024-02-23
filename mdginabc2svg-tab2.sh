@@ -114,9 +114,8 @@ catToFile "<?xml version='1.0' encoding='UTF-8'?>
 <html xmlns='http://www.w3.org/1999/xhtml'>
 <head>
 <meta http-equiv='Content-Type' content='text/html; charset=UTF-8'/>
-<script src='js/abc2svg-1.js' type='text/javascript'></script>
-<script src='js/abcemb-1.js' type='text/javascript'></script>
-<script src='js/play-1.js' type='text/javascript'></script>
+<script src='js/abcweb-1.js' type='text/javascript'></script>
+<script src='js/snd-1.js' type='text/javascript'></script>
 <style type='text/css'>
 	svg {display:block}
 </style>
