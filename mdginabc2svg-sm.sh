@@ -18,7 +18,7 @@
 #     VERSION:	1.0.2
 #     LICENSE:	Creative Commons Attribution 4.0 International License (CC-BY)
 #     CREATED:	10.08.2017 - 19:45:00 +08 2017
-#    REVISION:	02.23.2024 - 21:46:22 +08
+#    REVISION:	02.24.2024 - 14:36:17 +08
 #==================================================================================
 
 #----------------------------------------------------------------------------------
@@ -130,8 +130,8 @@ catToFile "<body bgcolor='#ffffff'>
 <center>
 %abc-4.49
 %<![CDATA[
-%%scale 0.75
-%%pagewidth 20cm
+%%scale 0.70
+%%pagewidth 24cm
 %%bgcolor white
 %%topspace 0
 %%composerspace 0
