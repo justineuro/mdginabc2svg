@@ -15,10 +15,10 @@
 #		Simrock). 
 #
 #      AUTHOR:	J.L.A. Uro (justineuro@gmail.com)
-#     VERSION:	1.6
+#     VERSION:	1.7
 #     LICENSE:	Creative Commons Attribution 4.0 International License (CC-BY)
 #     CREATED:	10.08.2017 - 16:21:10 +08 2017
-#    REVISION:	2017.08.15 15:50:19 +8
+#    REVISION:	02.23.2024 - 21:46:22 +08
 #==================================================================================
 
 #----------------------------------------------------------------------------------
@@ -128,7 +128,7 @@ catToFile "<?xml version='1.0' encoding='UTF-8'?>
 #----------------------------------------------------------------------------------
 catToFile "<body bgcolor='#ffffff'>
 <center>
-%abc-2.2
+%abc-4.49
 %<![CDATA[
 %%scale 0.88
 %%pagewidth 24cm
