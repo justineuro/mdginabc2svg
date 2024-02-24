@@ -10,7 +10,7 @@ Clicking (tapping, for mobile users) on the image below will consequently play t
 <center>
 %abc-4.49
 %<![CDATA[
-%%scale 0.75
+%%scale 0.70
 %%pagewidth 21cm
 %%bgcolor white
 %%topspace 0
