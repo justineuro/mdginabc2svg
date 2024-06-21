@@ -100,7 +100,7 @@ Examples of XHTML files (score-producing audio) containing MDG minuets generated
 - [K516f-12-12-12-12-12-12-12-12-12-12-12-12-12-12-12-12-sm.xhtml](./samples/K516f-12-12-12-12-12-12-12-12-12-12-12-12-12-12-12-12-sm.xhtml)
 
 ## Essential javascripts  
-`abcweb-1.js` and `snd-1.js` in the sub-folder `js` (version 1.22.13; 2024-02-23) were authored by Jeff Moin and were created from the [source](https://chiselapp.com/user/moinejf/repository/abc2svg/tarball/26f10696f1/abc2svg-26f10696f1.tar.gz). These javascripts are used to render ABC in the XHTML files.  See `http://moinejf.free.fr/abcm2ps-doc/tabac.html` for an example and template.
+`abcweb-1.js` and `snd-1.js` in the sub-folder `js` (version 1.22.13; 2024-02-23) were authored by Jeff Moine and were created from the [source](https://chiselapp.com/user/moinejf/repository/abc2svg/tarball/26f10696f1/abc2svg-26f10696f1.tar.gz). These javascripts are used to render ABC in the XHTML files.  See `http://moinejf.free.fr/abcm2ps-doc/tabac.html` for an example and template.
 
 The following descriptions are from the ChiselApp [abc2svg site](https://chiselapp.com/user/moinejf/repository/abc2svg/doc/trunk/README.md).
 
